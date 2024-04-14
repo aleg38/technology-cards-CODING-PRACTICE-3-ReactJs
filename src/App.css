@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.technology-cards-bg-container {
+  background-color: #f4faff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 50px;
+}
+.main-heading {
+  color: #171f46;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.paragraph {
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.technology-lists-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  flex-wrap: nowrap;
+}
